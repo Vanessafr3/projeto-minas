@@ -5,7 +5,7 @@ body, nav, main {
 }
 
 .menu {
-    background-color: #938DF8;
+    background-color: #764fed;
     padding: 30px 0;
     text-align: end; /* coloca os itens no final da pagina */
 }
@@ -23,7 +23,7 @@ body, nav, main {
 
 .menu ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(10, 2, 15);
     font-size: 20px;
     font-weight: bold;
 }
@@ -34,7 +34,7 @@ body, nav, main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #EDEAEA;
+    background-color: #ab93f0
 }
 
 #sobre {
@@ -44,11 +44,12 @@ body, nav, main {
 
 .minha-imagem {
     width: 200px;
-    border-radius: 10px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .titulo {
-   color: #938DF8; 
+   color: #3a044a; 
    font-size: 36px;
    font-weight: 700;
 }
@@ -69,48 +70,60 @@ body, nav, main {
 /* Formacao */
 
 #formacao {
-    background-color: #fff;
+    background-color: #f1eaf2;
     padding: 30px 80px;
-}
-
+  }
+  
 .titulo_formacao {
-    color: #49BFB3;
+    color: #98039b;
     font-size: 30px;
+    margin-bottom: 50px; 
 }
 
-.conteudo_formacao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.info_formacao {
-    width: 100%;
-    max-width: 600px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.certificações {
+.curso {
     display: flex;
     align-items: center;
-    margin-bottom: 18px;
-}
-.cert-imagem{
-    width: 300px;
-    margin-right: 20px;
-
-}
-
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px; 
+    margin-left: 150px; 
+  }
+  
+.graduacao {
+    margin-bottom: 60px;
+    border: none;
+    padding-bottom: 0;
+  }
+  
+.curso-info h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+.curso-info .descricao {
+    font-size: 16px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+.certificado {
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
 
 /* Portfolio */
 
 #portfolio {
-    background-color: #EDEAEA;
+    background-color: #e49ae9;
     padding: 30px 80px;
 }
 
 .titulo_portfolio {
-    color: #49BFB3;
+    color: #98039b;
     font-size: 30px;
 }
 
@@ -126,18 +139,18 @@ body, nav, main {
 }
 
 .info_portfolio h3 {
-    color: #555;
+    color: #f3a0e3;
     font-size: 18px;
 }
 
 #contato {
-    background-color: #938DF8;
+    background-color: #ab93f0;
     padding: 38px;
-    color: rgb(245, 229, 229);
+    color: rgb(116, 9, 155);
 }
 
 .rodape_item span a {
-    color: rgb(255, 255, 255);
+    color: rgb(124, 83, 125);
 }
 
 .rodape_item {
