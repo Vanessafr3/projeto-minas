@@ -23,7 +23,7 @@ body, nav, main {
 
 .menu ul li a {
     text-decoration: none;
-    color: rgb(10, 2, 15);
+    color: #f4f8f8;
     font-size: 20px;
     font-weight: bold;
 }
@@ -34,7 +34,7 @@ body, nav, main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ab93f0
+    background-color: #d8d0ee
 }
 
 #sobre {
@@ -49,7 +49,7 @@ body, nav, main {
 }
 
 .titulo {
-   color: #3a044a; 
+   color: #69066b; 
    font-size: 36px;
    font-weight: 700;
 }
@@ -70,12 +70,12 @@ body, nav, main {
 /* Formacao */
 
 #formacao {
-    background-color: #f1eaf2;
+    background-color: #ece6ff;
     padding: 30px 80px;
   }
   
 .titulo_formacao {
-    color: #98039b;
+    color: #7b247d;
     font-size: 30px;
     margin-bottom: 50px; 
 }
@@ -85,7 +85,7 @@ body, nav, main {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #100505;
     padding-bottom: 20px; 
     margin-left: 150px; 
   }
@@ -125,7 +125,7 @@ body, nav, main {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(4, 4, 4, 0.9);
 }
 
 .modal-conteudo {
@@ -134,14 +134,14 @@ body, nav, main {
   max-width: 90%;
   max-height: 80vh;
   border-radius: 10px;
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px #b02020;
 }
 
 .fechar {
   position: absolute;
   top: 30px;
   right: 50px;
-  color: white;
+  color: rgb(66, 20, 20);
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
@@ -151,12 +151,12 @@ body, nav, main {
 /* Portfolio */
 
 #portfolio {
-    background-color: #eb03eb;
+    background-color:  #d8d0ee;
     padding: 30px 80px;
 }
 
 .titulo_portfolio {
-    color: #040304;
+    color: #7b247d;
     font-size: 30px;
 }
 
@@ -172,19 +172,19 @@ body, nav, main {
 }
 
 .info_portfolio h3 {
-    color: #e026bb;
+    color: #302e30;
     font-size: 18px;
 }
 
 #contato {
   padding: 40px 80px;
-  background-color: #fff;
+  background-color:  #ece6ff;
   text-align: center;
 }
 
 #contato h2 {
   font-size: 28px;
-  color: #e4dbf8;
+  color: #895de8;
   margin-bottom: 30px;
   font-weight: bold;
 }
@@ -216,7 +216,7 @@ input,
 textarea {
   padding: 12px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #0d0d0d;
   font-size: 16px;
   resize: none;
   outline: none;
@@ -240,13 +240,13 @@ button[type="submit"]:hover {
 
 
 #contatos {
-    background-color: #ab93f0;
+    background-color: #764fed;
     padding: 38px;
-    color: rgb(116, 9, 155);
+    color: #000000;
 }
 
 .rodape_item span a {
-    color: rgb(124, 83, 125);
+    color: #09090a;
 }
 
 .rodape_item {
